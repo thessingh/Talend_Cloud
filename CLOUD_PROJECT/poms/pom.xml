@@ -180,6 +180,10 @@
     <module>jobs/process/t01_Compo/Orchestration/twaitforsocket_0.1</module>
     <module>jobs/process/t01_Compo/ELT/createtables4etl_0.1</module>
     <module>jobs/process/t01_Compo/LogError/tassert_0.1</module>
+    <module>jobs/joblets/jcloudlog_0.1</module>
+    <module>jobs/process/Examples/video_viewers_watch_results_log_filter_0.1</module>
+    <module>jobs/process/Examples/sayhello_0.1</module>
+    <module>jobs/process/Examples/getweather_0.1</module>
   </modules>
   <properties>
     <talend.project.name>CLOUD_PROJECT</talend.project.name>
