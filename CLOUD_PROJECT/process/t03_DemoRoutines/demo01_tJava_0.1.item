@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default"/>
+  <parameters>
+    <elementParameter field="TEXT" name="VERSION" value="0.1"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE="/>
+    <elementParameter field="TEXT" name="TABLE_STATS" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TABLE_LOGS" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TABLE_METER" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false"/>
+    <routinesParameter id="_BzsnoJWBEd2-2urAiuZBEg" name="DataOperation"/>
+    <routinesParameter id="_B9YvIJWBEd2-2urAiuZBEg" name="Mathematical"/>
+    <routinesParameter id="_B9rqE5WBEd2-2urAiuZBEg" name="Numeric"/>
+    <routinesParameter id="_B9rqF5WBEd2-2urAiuZBEg" name="Relational"/>
+    <routinesParameter id="_B91bE5WBEd2-2urAiuZBEg" name="StringHandling"/>
+    <routinesParameter id="_B91bF5WBEd2-2urAiuZBEg" name="TalendDataGenerator"/>
+    <routinesParameter id="_B9-lAJWBEd2-2urAiuZBEg" name="TalendDate"/>
+    <routinesParameter id="_B9-lBJWBEd2-2urAiuZBEg" name="TalendString"/>
+    <routinesParameter id="_8qwkYFjNEdyj6eiqDt60Og" name="DemoRoutines"/>
+    <routinesParameter id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
+  </parameters>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.101 (ALPHA)"/>
+    <elementParameter field="CLOSED_LIST" name="LOG" value=""/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="DemoRoutines.helloExemple(&quot;Word&quot;);&#13;&#10;&#13;&#10;/*&#13;&#10;* TODO : explain the Task Tag ;)&#13;&#10;* When you write a comment on a tJava component,&#13;&#10;* several tags are automaticaly linked with the view Tasks&#13;&#10;* &#13;&#10;* To manage the Task Tags, go to:&#13;&#10;*          Window/Preference/Java/compiler/Task Tags&#13;&#10;*&#13;&#10;*/"/>
+    <elementParameter field="TEXT" name="LABEL" value="                                        &lt;b&gt;__UNIQUE_NAME__&lt;br&gt;Code:&lt;/b&gt;&lt;br&gt;__CODE__"/>
+    <elementParameter field="TEXT" name="HINT" value="__UNIQUE_NAME__"/>
+    <elementParameter field="CHECK" name="SHOW_HINT" value="true"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+    <metadata name="tJava_1"/>
+  </node>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7921b593-35c7-47b9-ba59-1021ef682912"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>KjTIDSFZcZOzdXwIsbC9PYfojXzdL1AncKUSiG3aYNuZCZrPn4sr8RiO2CtjyfE15/IBZZZW5iRT
+2KMmSKJLYQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3318874d-fef0-4ab3-a602-88ce9946e132"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PRLLu1d69s3Znanb2eZVVW5KpTciFGcmhVRkVCx8Objoqv+51RZsNSOF3iIW/iHASVH3KVZ/LU2N
+/eZX/CbmKg==</DigestValue></Reference></SignedInfo><SignatureValue>W/IHhBraCCeOMENXbFUyzrT//pVTCBSz/vG8T2g5LXhT8RfDFiU8Cj5nwhR4mjdubZ5JsxqJx/su
+jKagLkvU6E65LmcDJTBUjg6efmBZWY6M/COjHMIUC2J3ylxbEIKs0qJrQd3JiRz5E1Zng8Aeriy0
+fmF6nY9vwURRxJ/8SsxIK1c1nYia9YPiKRtvWe9dFXhdzkmpPVfW6Kde2/eaqBcNTAA0uY+M6T84
+7Mq5hYyexv+GyGRmEupkwubZ+wO8g6MsC8kZ0pjumWiPXp1PyYk0TKNAc2WiP/aleRx7REu6BtRD
+3wRc1D4ce1AxKSgCxCxFESDSTdB3rrc7rsm54g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3318874d-fef0-4ab3-a602-88ce9946e132" Target="#_7921b593-35c7-47b9-ba59-1021ef682912"><Timestamp>2018-09-03 10:00:42</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
