@@ -184,6 +184,41 @@
     <module>jobs/process/Examples/video_viewers_watch_results_log_filter_0.1</module>
     <module>jobs/process/Examples/sayhello_0.1</module>
     <module>jobs/process/Examples/getweather_0.1</module>
+    <module>jobs/process/synonym_usage/demo_ofac_sdn_0.1</module>
+    <module>jobs/process/address_location/tgooglemaplookup_0.1</module>
+    <module>jobs/process/dedupe_jobs/c0_create_duplicates_0.1</module>
+    <module>jobs/process/TDQ_Examples/jd_2_standardizetitle_0.1</module>
+    <module>jobs/process/synonym_usage/demo_iata_0.1</module>
+    <module>jobs/process/TUTO62/census_lookup_0.1</module>
+    <module>jobs/process/TUTO62/Prerequisite/load_customer_data_0.1</module>
+    <module>jobs/process/synonym_usage/demo_standardize_city_names_0.1</module>
+    <module>jobs/process/standardization_examples/address/a2_normalizeaddress_0.1</module>
+    <module>jobs/process/dedupe_jobs/c1_merge_exact_duplicates_0.1</module>
+    <module>jobs/process/TUTO78/correct_claim_dates_0.1</module>
+    <module>jobs/process/TDQ_Examples/jd_1_parsename_0.1</module>
+    <module>jobs/process/TUTO79/extract_invalid_values_0.1</module>
+    <module>jobs/process/standardization_examples/product/products_parsing_0.1</module>
+    <module>jobs/process/address_location/tgooglegeocoder_0.1</module>
+    <module>jobs/process/data_matching/d_group_family_generate_key_0.1</module>
+    <module>jobs/process/standardization_examples/address/address_standardization_0.1</module>
+    <module>jobs/process/synonym_examples/c_matchseveralfieldssyn_0.1</module>
+    <module>jobs/process/TDQ_Examples/jd_6_consolidatecustomers_0.1</module>
+    <module>jobs/process/data_matching/c_group_per_family_0.1</module>
+    <module>jobs/process/synonym_examples/b_searchfirstname_0.1</module>
+    <module>jobs/process/TDQ_Examples/jd_4_consolidateaccounts_0.1</module>
+    <module>jobs/process/address_location/tgoogleaddressrow_0.1</module>
+    <module>jobs/process/TUTO79/cif_customer_parsing_0.1</module>
+    <module>jobs/process/TDQ_Examples/jd_3_parseaccountdescription_0.1</module>
+    <module>jobs/process/TDQ_Examples/js_runall_0.1</module>
+    <module>jobs/process/TUTO82/dedupewithmatchgroup_0.1</module>
+    <module>jobs/process/standardization_examples/address/a2_standardizeaddress_0.1</module>
+    <module>jobs/process/TUTO75/load_partsmaster_data_0.1</module>
+    <module>jobs/process/synonym_examples/runallfirstnamejobs_0.1</module>
+    <module>jobs/process/synonym_examples/a_createfirstnamesyn_0.1</module>
+    <module>jobs/process/standardization_examples/phone/phone_number_0.1</module>
+    <module>jobs/process/standardization_examples/address/a1_parisstreetindexcreation_0.1</module>
+    <module>jobs/process/TDQ_Examples/jd_5_deduplicate_crm_customers_0.1</module>
+    <module>jobs/process/data_matching/a_matchcustomers_0.1</module>
   </modules>
   <properties>
     <talend.project.name>CLOUD_PROJECT</talend.project.name>
